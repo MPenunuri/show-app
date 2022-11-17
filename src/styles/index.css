@@ -1,0 +1,170 @@
+body{
+  background-color: rgb(245, 241, 241);
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  background-color: rgb(32, 28, 28);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+  rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+  rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navBarText{
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+}
+
+input{
+  width: 15rem;
+  height: 40px;
+  padding-right: 10px;
+  border-radius: 25px;
+  border: .5px solid rgb(92, 89, 89);
+  padding-left: 20px;
+  font-size: medium;
+  font-style: normal;
+}
+
+.searchbtn{
+  color: whitesmoke;
+  background-color: rgb(58, 145, 119);
+  height: 40px;
+  font-size: medium;
+  align-items: center;
+  appearance: none;
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+  rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+  #D6D6E7 0 -4px 0 inset;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: left;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  touch-action: manipulation;
+  will-change: box-shadow,transform;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+}
+
+.searchbtn:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, 
+  rgba(45, 35, 66, 0.4) 0 2px 4px, 
+  rgba(45, 35, 66, 0.3) 0 7px 13px -3px, 
+  #D6D6E7 0 -3px 0 inset;
+}
+
+.searchbtn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, 
+  rgba(45, 35, 66, 0.3) 0 7px 13px -3px, 
+  #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.searchbtn:active{
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.homeContainer{
+  margin-top: 55px;
+}
+
+.searchContainer{
+  margin-top: 100px;
+}
+
+.showContainer{
+  margin-top: 110px;
+}
+
+.showApp{
+  background-color: #8C8A88;
+  color: white;
+  background-image: url('https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nameApp, .descApp{
+  background-color: black;
+  padding: 10px;
+  color: rgb(245, 241, 241);
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+  rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+  rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.appLogo{
+  background-color: rgb(245, 241, 241);
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+  rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+  rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h2{
+  font-weight: bolder;
+}
+
+footer{
+  background-color: #8C8A88;
+  color: white;
+  font-size: small;
+}
+
+img{
+  max-width: 200px;
+}
+
+.tvMazeLogo{
+  max-width: 900px;
+  color: white;
+  
+}
+
+p{
+  text-align: justify;
+}
+
+.emptyStr{
+  color: rgb(245, 241, 241);
+}
+
+.episode-picture{
+  max-width: 100px;
+}
+
+.cast-picture{
+  max-width: 150px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.cast-card{
+  background-color: rgb(240, 238, 238);
+}
+
+hr {
+  align-self: center;
+  background-color: rgb(5, 5, 5);
+  width: 90%;
+  height: 4px;
+  border-top: 1px solid black;
+  border-radius: 20px;
+  margin-left: 5%;
+}
