@@ -12,7 +12,7 @@ export default function Router (){
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />}/>
           <Route path="search/:name" element={<SearchResults />}/>
-          <Route path="show/:id" element={<Show />}/>
+          <Route path="show/:id/:name" element={<Show />}/>
           <Route path='*' element={<Navigate to='/' />} />
         </Route>
       </Routes>
